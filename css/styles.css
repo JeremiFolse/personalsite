@@ -10,9 +10,10 @@ body {
 h1 {
   font-size: 5.625rem;
   color: #66bfbf;
-  margin: 50px auto 0 auto;
+  margin: 0px auto 0px auto;
   font-family: "Sacramento", cursive;
-  line-height: 2;
+  line-height: 1;
+  padding-top: 100px;
 }
 
 h2 {
@@ -54,8 +55,11 @@ hr {
 
 .top-container {
   background-color: #e4f9f5;
-  position: relative;
-  padding-top: 100px;
+  padding-bottom: 60px;
+}
+
+.title-page {
+  padding: 115px 0;
 }
 
 .middle-container {
@@ -93,14 +97,20 @@ hr {
 
 .top-cloud {
   position: absolute;
-  right: 300px;
-  top: 40px;
+  right: 150px;
+  top: 50px;
 }
 
 .bottom-cloud {
   position: absolute;
-  left: 250px;
-  bottom: 400px;
+  left: 150px;
+  bottom: 300px;
+}
+
+.mountain {
+  position: absolute;
+  bottom: 0;
+  right: 325px;
 }
 
 .skills-icon {
