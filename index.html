@@ -7,20 +7,20 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Jeremi Folse</title>
 
-<!-- Google Fonts -->
-  <link
-    href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&family=Splash&display=swap"
-    rel="stylesheet">
+  <!-- Google Fonts -->
+<link
+  href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;700;900&family=Roboto+Mono:wght@100;300;400;500;700&display=swap"
+  rel="stylesheet">
 
-<!-- CSS Stylesheets -->
+  <!-- CSS Stylesheets -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
   <link rel="stylesheet" href="css/styles.css" />
 
-<!-- Browser Icon -->
+  <!-- Browser Icon -->
   <link rel="icon" href="favicon.ico" />
 
-<!-- Bootstrap Scripts -->
+  <!-- Bootstrap Scripts -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js"
     integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous">
   </script>
@@ -28,58 +28,107 @@
 </head>
 
 <body>
-  <div class="top-container">
-    <h1>I'm Jeremi.</h1>
-    <h2>a <span class="pro">pro</span>grammer.</h2>
-    <div class="title-page">
-      <img class="mountain" src="images/mountain.png" alt="mountain-img" />
-      <img class="top-cloud" src="images/cloud.png" alt="cloud-img" />
-      <img class="bottom-cloud" src="images/cloud.png" alt="cloud-img" />
-    </div>
-  </div>
-  <div class="middle-container">
-    <div class="profile">
+
+  <section id="title">
+
+    <div class="container-fluid">
+
+      <!-- Nav Bar -->
+
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <a class="navbar-brand" href="#cta">JF</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#title">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#skills">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#cta">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <!-- Title -->
+
+      <h1>I'm Jeremi.</h1>
+      <h2>a <span class="pro">pro</span>grammer.</h2>
       <img class="profile-picture" src="images/profile picture.jpg" alt="profile-img" />
-      <h2>Hello.</h2>
-      <p class="bio">BIO</p>
+
     </div>
-    <hr />
-    <div>
-      <h2>My Skills.</h2>
-      <div class="skill-row">
-        <img class="skills-icon" src="images/coding icon.png" alt="coding-icon" />
-        <h3>Design & Development</h3>
-        <p>
-          I have been interested in design & development since I was a kid.
-          Grew up in the explosion that was the internet. Gaming, front, &
-          backend design has really peaked my interest.
-        </p>
+
+  </section>
+
+      <!-- Skills Section -->
+
+  <section id="skills">
+
+    <div class="container-fluid">
+
+      <div class="profile">
+        <h2>Hello.</h2>
+        <p class="bio">BIO</p>
       </div>
-      <div class="skill-row">
-        <img class="truck-icon" src="images/trucking icon.png" alt="trucking-icon" />
-        <h3>Trucking</h3>
-        <p>
-          I aquired my Commercial Driver's License in 2021.
-        </p>
+
+      <div>
+        <h2>My Skills.</h2>
+        <div class="skill-row1">
+          <img class="skills-icon" src="images/coding icon.png" alt="coding-icon" />
+          <h3>Design & Development</h3>
+          <p>
+            I have been interested in design & development since I was a kid.
+            Grew up in the explosion that was the internet. Gaming, front, &
+            backend design has really peaked my interest.
+          </p>
+        </div>
+        <div class="skill-row2">
+          <img class="truck-icon" src="images/trucking icon.png" alt="trucking-icon" />
+          <h3>Trucking</h3>
+          <p>
+            I aquired my Commercial Driver's License in 2021.
+          </p>
+        </div>
       </div>
-    </div>
-    <hr />
+
+      <hr />
+
+  </section>
+
+      <!-- Call to Action -->
+
+  <section id="cta">
+
     <div class="contact-me">
+
       <h2>Get In Touch.</h2>
       <h3>Lorem ipsum dolor sit amet, non elit.</h3>
-      <p class="contact-me-p">
+      <p>
         Lorem ipsum dolor sit amet, in quis, aenean amet. Phasellus sodales,
         tellus donec dui, ornare erat.
       </p>
-      <a class="btn" href="mailto:jeremifolse@gmail.com">CONTACT ME</a>
+      <button type="button" class="btn btn-outline-light btn-lg contact-button">
+        Contact Me</button>
     </div>
-  </div>
-  <div class="bottom-container">
-    <a class="footer-link" href="https://github.com/JeremiFolse">GitHub</a>
-    <a class="footer-link" href="https://www.linkedin.com/in/jeremi-folse-830734206/">LinkedIn</a>
-    <a class="footer-link" href="">Twitter</a>
-    <p class="copyright-message">© 2022 Jeremi Folse</p>
-  </div>
+    </div>
+
+    <div class="container-fluid">
+
+      <a class="footer-link" href="https://github.com/JeremiFolse">Github</a>
+      <a class="footer-link" href="https://www.linkedin.com/in/jeremi-folse-830734206/">LinkedIn</a>
+      <a class="footer-link" href="">Twitter</a>
+      <p class="copyright-message">© 2022 Jeremi Folse</p>
+
+    </div>
+
+  </section>
+
 </body>
 
 </html>
