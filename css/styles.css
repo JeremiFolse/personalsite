@@ -2,6 +2,7 @@ body {
   font-family: 'Montserrat', sans-serif;
   text-align: center;
   background-color: #041C32;
+  color: #041C32;
 }
 
 h1,
@@ -15,14 +16,17 @@ h6 {
   color: #ECB365;
 }
 
-p {
-  color: #ECB365;
-}
-
 /* Containers */
 
 .container-fluid {
   padding: 7% 15%;
+}
+
+/* Sections */
+
+.white-section {
+  background-color: #fff;
+  color: #041C32;
 }
 
 /* Navigation Bar */
@@ -75,6 +79,10 @@ p {
 }
 
 /* Skills Section */
+
+.skills-text {
+  color: #041C32;
+}
 
 .skill-row1 {
   text-align: left;
